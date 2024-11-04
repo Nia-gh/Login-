@@ -256,12 +256,25 @@ input::placeholder {
         display: none;
     }
 
-    .form-section .par-3 {
-        display: none;
+    .form-section .par-3,
+    .form-section .par-4 {
+        position: absolute;
+        top: 130px;
+        right: 20px;
+        text-align: right;
     }
 
     .form-section .par-4 {
-        display: none;
+        font-size: 32px;
+        font-weight: 400;
+        color: gray;
+    }
+
+    .form-section .par-3 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #303030;
+        margin-top: 55px;
     }
 
     .login-form .forgett {

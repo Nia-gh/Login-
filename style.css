@@ -203,8 +203,17 @@ a {
         margin: 0 15px !important;
     }
 
+    .form-section .par-3{
+        position: absolute;
+        top: 130px;
+        right: 20px;
+        text-align: right;
+    }
+
     .form-section .par-3 {
-        display: none;
+        font-size: 30px;
+        font-weight: 700;
+        color: #303030;
     }
 
     @media (max-width: 345px) {
